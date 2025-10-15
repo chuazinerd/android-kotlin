@@ -1,6 +1,9 @@
+//Criando funções em uma única linha.
+fun mostraNome(nome: String) = println ("Olá $nome")
+fun soma(n1: Int, n2: Int) = n1 + n2
+
 fun main() {
-    val tipoTexto: String = "777"
-    tipoTexto.toInt()
-    println(tipoTexto)
+    mostraNome("Bot")
+    println(soma(10, 10))
 }
 
