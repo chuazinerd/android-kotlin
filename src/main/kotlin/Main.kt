@@ -7,5 +7,7 @@
 //Comentario de linha unica
 //Ponto de entrada
 fun main() {
-    println("Hello, Android")//Tipos de comentário
+    var caixa: String = "Olá mundo"
+    println(caixa)
 }
+
