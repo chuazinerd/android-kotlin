@@ -1,1 +1,3 @@
 Para dar zoom nas fontes: ctrl + alt + shit simultanemente, então apertar a tecla "+" ou "-"
+
+Para duplicar linhas mais rapido: ctrl + d
