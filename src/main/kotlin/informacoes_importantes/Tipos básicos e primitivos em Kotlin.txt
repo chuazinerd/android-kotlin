@@ -1,0 +1,78 @@
+/**
+ * TIPOS BÁSICOS (PRIMITIVOS) EM KOTLIN
+ * * Em Kotlin, todos os tipos são objetos (podem ter métodos),
+ * mas os tipos numéricos, Boolean e Char têm uma representação
+ * otimizada (primitiva) em tempo de execução.
+ *
+ * | Categoria | Tipo Kotlin | Tamanho (Bits) | Faixa de Valores (Aproximada) | Uso Principal |
+ */
+
+// ---------------------- NÚMEROS INTEIROS ----------------------
+
+/**
+ * Byte (8 bits): Inteiro muito pequeno.
+ * Faixa: De -128 a 127
+ * Exemplo: val b: Byte = 10
+ */
+// val b: Byte = 10
+
+/**
+ * Short (16 bits): Inteiro curto.
+ * Faixa: De -32.768 a 32.767
+ * Exemplo: val s: Short = 1000
+ */
+// val s: Short = 1000
+
+/**
+ * Int (32 bits): Inteiro padrão (inferido por padrão para inteiros).
+ * Faixa: De -2.147.483.648 a 2.147.483.647
+ * Exemplo: val i = 100000 // Inferred as Int
+ */
+// val i = 100000
+
+/**
+ * Long (64 bits): Inteiro longo.
+ * Faixa: De -9 * 10^18 a 9 * 10^18 (aproximadamente)
+ * Exemplo: val l = 10000000000L // 'L' é necessário para indicar Long
+ */
+// val l = 10000000000L
+
+
+// -------------------- NÚMEROS PONTO FLUTUANTE --------------------
+
+/**
+ * Float (32 bits): Ponto flutuante de precisão simples.
+ * Faixa: Números decimais (menor precisão).
+ * Exemplo: val f = 10.5f // 'f' é necessário para indicar Float
+ */
+// val f = 10.5f
+
+/**
+ * Double (64 bits): Ponto flutuante de precisão dupla (inferido por padrão para decimais).
+ * Faixa: Números decimais (maior precisão, padrão).
+ * Exemplo: val d = 10.5 // Inferred as Double
+ */
+// val d = 10.5
+
+
+// -------------------------- OUTROS TIPOS --------------------------
+
+/**
+ * Boolean: Valores lógicos.
+ * Faixa: true ou false
+ * Exemplo: val isTrue = true
+ */
+// val isTrue = true
+
+/**
+ * Char (16 bits): Caractere Unicode.
+ * Faixa: Caracteres únicos (entre aspas simples).
+ * Exemplo: val c: Char = 'A'
+ */
+// val c: Char = 'A'
+
+/**
+ * String: Sequência de caracteres (IMUTÁVEL).
+ * (Não é primitivo, mas é um tipo básico e fundamental)
+ * Exemplo: val str = "Olá Kotlin"
+ */
