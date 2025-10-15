@@ -1,3 +1,4 @@
-Para dar zoom nas fontes: ctrl + alt + shit simultanemente, então apertar a tecla "+" ou "-"
-
-Para duplicar linhas mais rapido: ctrl + d
+ctrl + alt + shit simultanemente + "+" ou "-" para dar zoom nas fontes
+ctrl + d duplica linha
+ctrl + q explicar as funções em Kotlin
+ctrl + b mostra os codigos relacionados a função selecionada
